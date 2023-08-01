@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+## Описание проекта
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Наш проект представляет собой веб-приложение на React для редактирования структуры данных. Он позволяет просматривать список элементов и редактировать их значения.
 
-## Available Scripts
+### Функциональность
 
-In the project directory, you can run:
+- При запуске приложения отображается список элементов с их значениями.
+- Пользователь может выбрать элемент, кликнув на него в списке. Выбранный элемент отображается в форме редактора.
+- В редакторе пользователь может изменить значение выбранного элемента и сохранить изменения.
 
-### `npm start`
+### Технические детали
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Для разработки приложения использовался язык JavaScript и библиотека React.
+- Для стилизации интерфейса использованы CSS стили.
+- Приложение адаптировано для кросс-браузерности и респонсивности, что обеспечивает корректное отображение на различных устройствах.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Запуск проекта
 
-### `npm test`
+Чтобы запустить проект на своем компьютере, выполните следующие шаги:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Установка Node.js и npm
 
-### `npm run build`
+Если у вас еще нет Node.js и npm (Node Package Manager), установите их с официального сайта Node.js: https://nodejs.org/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2. Клонирование репозитория
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Клонируйте репозиторий с проектом на свой компьютер с помощью Git.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 3. Переход в директорию проекта
 
-### `npm run eject`
+Перейдите в директорию с проектом:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+cd react-editable-list
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 4. Установка зависимостей
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Установите зависимости проекта, выполнив команду:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm install
+```
 
-## Learn More
+### 5. Запуск приложения
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Теперь запустите приложение с помощью команды:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm start
+```
 
-### Code Splitting
+После этого ваше приложение будет доступно по адресу http://localhost:3000/ в вашем веб-браузере.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Готово!
 
-### Analyzing the Bundle Size
+Теперь вы успешно запустили проект на своем компьютере. Вы можете взаимодействовать с приложением, редактировать значения элементов и наслаждаться его функциональностью.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Удачи в разработке и использовании приложения!
